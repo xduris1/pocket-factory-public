@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for the Pocket Factory Android game by Questionable Engineering.">
+  <meta name="theme-color" content="#fff6e8">
+  <title>Pocket Factory Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fff6e8;
+      --card: #fffdf7;
+      --ink: #243d33;
+      --muted: #536451;
+      --line: #ddceb4;
+      --link: #235c42;
+      --focus: #a94e1d;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 1.25rem; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.7;
+    }
+    .page {
+      width: min(100% - 2.25rem, 48rem);
+      margin: 0 auto;
+      padding: clamp(1.75rem, 5vw, 4rem) 0 2rem;
+    }
+    .brand {
+      margin: 0 0 0.75rem;
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 650;
+      letter-spacing: 0.015em;
+    }
+    h1 {
+      margin: 0;
+      max-width: 19ch;
+      font-size: clamp(2rem, 5.5vw, 3rem);
+      font-weight: 750;
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+      overflow-wrap: anywhere;
+    }
+    .updated { margin: 1rem 0 1.75rem; color: var(--muted); }
+    .contents {
+      margin: 0 0 2rem;
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: var(--card);
+    }
+    .contents-title { margin: 0 0 0.4rem 0.65rem; font-weight: 700; }
+    .contents ul {
+      display: grid;
+      gap: 0.2rem 0.75rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .contents a {
+      display: block;
+      min-height: 3rem;
+      padding: 0.65rem;
+      border-radius: 0.5rem;
+      line-height: 1.5;
+    }
+    .contents a:hover { background: #f3ecd9; }
+    a {
+      color: var(--link);
+      text-decoration-thickness: 0.075em;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+    p { margin: 0 0 1.1rem; }
+    section { margin-top: 2.2rem; }
+    h2 {
+      margin: 0 0 0.8rem;
+      font-size: clamp(1.4rem, 3.5vw, 1.65rem);
+      line-height: 1.3;
+      letter-spacing: -0.015em;
+    }
+    .contact-link {
+      display: inline-block;
+      max-width: 100%;
+      min-height: 3rem;
+      padding: 0.55rem 0.75rem;
+      margin-top: 0.35rem;
+      border: 1px solid var(--line);
+      border-radius: 0.65rem;
+      background: var(--card);
+      font-weight: 700;
+    }
+    footer {
+      margin-top: 2.75rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    footer p { margin-bottom: 0.5rem; }
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      z-index: 1;
+      padding: 0.65rem 1rem;
+      border-radius: 0.5rem;
+      background: var(--card);
+      transform: translateY(-200%);
+    }
+    .skip-link:focus { transform: translateY(0); }
+    @media (min-width: 38rem) { .contents ul { grid-template-columns: 1fr 1fr; } }
+    @media print {
+      body { background: white; color: black; font-size: 11pt; }
+      .page { width: 100%; margin: 0; padding: 0; }
+      .contents, .skip-link { display: none; }
+      a { color: black; }
+      h2 { break-after: avoid; }
+      .contact-link { padding: 0; border: 0; background: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#policy">Skip to policy</a>
+  <div class="page">
+    <header>
+      <p class="brand">Questionable Engineering</p>
+      <h1>Pocket Factory Privacy Policy</h1>
+      <p class="updated">Last updated: <time datetime="2026-11-24">24 November 2026</time></p>
+    </header>
+    <nav class="contents" aria-label="Policy contents">
+      <p class="contents-title">On this page</p>
+      <ul>
+        <li><a href="#local-game-data">Local game data</a></li>
+        <li><a href="#google-play-purchases">Google Play purchases</a></li>
+        <li><a href="#rewarded-advertising">Optional rewarded advertising and consent</a></li>
+        <li><a href="#support-and-choices">Support and your choices</a></li>
+        <li><a href="#data-handling">Data handling and security</a></li>
+        <li><a href="#contact-and-changes">Contact and changes</a></li>
+      </ul>
+    </nav>
+    <main id="policy" tabindex="-1">
+      <p>Pocket Factory is an Android factory-building game provided under the Questionable Engineering developer name. This policy describes the current Android beta, including optional Google AdMob rewarded ads and Google Play purchases.</p>
+      <section aria-labelledby="local-game-data">
+        <h2 id="local-game-data">Local game data</h2>
+        <p>The game saves your factory layout, production, research, shipping progress, settings and boost wallet on your device. The wallet includes a randomly generated factory identifier, purchased time, machine reward timers, hashed purchase references and random reward references used to prevent duplicate grants. This beta does not upload your factory saves to a developer-operated cloud account.</p>
+        <p>Local data remains until you delete it, clear app storage or uninstall the app, subject to Android's storage behaviour. Clearing storage can remove your consumable boost bank and game progress.</p>
+      </section>
+      <section aria-labelledby="google-play-purchases">
+        <h2 id="google-play-purchases">Google Play purchases</h2>
+        <p>Optional factory-time purchases are processed by Google Play. The game uses product information, purchase status and purchase tokens to deliver and consume a purchased pack. Its local wallet keeps hashed references for recovery and duplicate prevention. The game does not store payment-card numbers. Google may make transaction records available to the developer through its merchant services.</p>
+        <p>Google handles its payment and account data under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+      </section>
+      <section aria-labelledby="rewarded-advertising">
+        <h2 id="rewarded-advertising">Optional rewarded advertising and consent</h2>
+        <p>Viewing a rewarded ad is optional; ordinary game progression remains available without watching ads. An eligible completed rewarded ad grants a temporary boost to the selected machine.</p>
+        <p>Google AdMob and its consent SDK process data for advertising, measurement and fraud prevention. According to Google's SDK disclosure, this can include IP address, approximate location inferred from IP, app/ad interactions, diagnostic information, and device/account identifiers such as the advertising ID and app set ID. The data processed depends on device settings, consent, the ad configuration and Google's services.</p>
+        <p>Where required, a Google consent message provides privacy choices before ad requests. You can revisit required choices through the game's Ad privacy control. You can also use Android's advertising privacy settings. Refusing consent does not disable ordinary factory gameplay; ad availability depends on Google's consent rules.</p>
+        <p>Google processes and retains its service data under its own policies and may process it outside your country. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, <a href="https://policies.google.com/technologies/ads">Google advertising information</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google's Mobile Ads SDK disclosure</a>.</p>
+      </section>
+      <section aria-labelledby="support-and-choices">
+        <h2 id="support-and-choices">Support and your choices</h2>
+        <p>If you contact the developer, information you voluntarily send, such as your email address, issue description or diagnostic files, is used to respond and troubleshoot. Support information is retained only as necessary for that purpose and applicable legal obligations. Do not include passwords or payment-card information in support requests.</p>
+        <p>Depending on your location, you may have rights to access, correct, delete or restrict processing of personal information, withdraw consent or complain to a supervisory authority. Contact the developer for information it controls; use Google's privacy controls for information Google controls. We cannot retrieve a local factory save that you have not provided to us.</p>
+      </section>
+      <section aria-labelledby="data-handling">
+        <h2 id="data-handling">Data handling and security</h2>
+        <p>Local game files use Android's app-specific storage controls. The boost wallet stores hashed purchase references rather than payment-card details. Google handles advertising, consent and purchase communications through its SDKs and services under its documented security practices. Keep your device and any copies of your saves secure.</p>
+      </section>
+      <section aria-labelledby="contact-and-changes">
+        <h2 id="contact-and-changes">Contact and changes</h2>
+        <p>Privacy contact:<br><a class="contact-link" href="mailto:questionable.engineering.comp@gmail.com">questionable.engineering.comp@gmail.com</a></p>
+        <p>We may update this policy when the game's data practices change. The current policy will be available at its public URL with an updated date.</p>
+      </section>
+    </main>
+    <footer>
+      <p>Hosted on GitHub Pages. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
