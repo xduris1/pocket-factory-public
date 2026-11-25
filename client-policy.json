@@ -1,6 +1,8 @@
 {
   "schema": 1,
   "packageName": "com.questionable_engineering.pocket_factory",
-  "minimumVersionCode": 2026112423,
-  "minimumVersionName": "0.2.13"
+  "minimumVersionCode": 2026112515,
+  "minimumVersionName": "0.2.15",
+  "sourceCommit": "6c6f62977e5143e82a0d6c76a3650168caeb90d3",
+  "aabSha256": "6930575c2a960cefcac52dc11d49b274a3b7b298655777a35d4f052a0f916a3f"
 }
